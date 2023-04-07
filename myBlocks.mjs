@@ -24640,7 +24640,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       var dateobj = new Date();
       var year = dateobj.getFullYear();
       var month = dateobj.getMonth() + 1;
-      var day = dateobj.getDay();
+      var day = dateobj.getDate();
       var hour = dateobj.getHours();
       var minute = dateobj.getMinutes();
       dateobj.getSeconds();
